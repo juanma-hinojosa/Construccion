@@ -4,28 +4,281 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>Refacciones y Mantenimiento</title>
 
     <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="style/nav-bar.css">
+    <link rel="stylesheet" href="styles/nav-bar.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/servicios.css">
+    <link rel="stylesheet" href="styles/nosotros.css">
+    <link rel="stylesheet" href="styles/trabajos.css">
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="nav-content">
-            <div class="left-side">
-                <div class="logo">
-                    <h1>Refacciones y Mantenimiento</h1>
-                </div>
-            </div>
+    <div class="navbar">
+        <a href="#" class="toggle" id="navHamburger">
+            <i class="fas fa-bars"></i>
+        </a>
 
-            <div class="right-side">
-                <div class="link"><a href="#"></a>Word</div>
-                <div class="link"><a href="#"></a>Word</div>
-                <div class="link"><a href="#"></a>Word</div>
-                <div class="link"><a href="#"></a>Word</div>
-                <div class="link"><a href="#"></a>Word</div>
+        <a href="#" class="brand">Refacciones y Mantenimiento</a>
+
+        <!-- <div class="left">
+            <a href="#" class="link">link 1</a>
+            <a href="#" class="link">link 2</a>
+        </div> -->
+        <div class="right">
+            <a href="#" class="link">Inicio</a>
+            <a href="#servicios" class="link">Servicios</a>
+            <a href="#nosotros" class="link">Nosotros</a>
+            <a href="#trabajos" class="link">Trabajos</a>
+            <a href="#contacto" class="link">Contacto</a>
+        </div>
+    </div>
+
+    <div class="home" id="home">
+        <div class="content-home">
+            <div class="text">
+                <div class="name">
+                    <h2>Refacciones y Mantenimiento</h2>
+                    <p>Somos una empresa dedica a refacciones y Mantenimiento Integral</p>
+                </div>
+    
+                <div class="skrol-icon">
+                    <a href="#servicios"><i class="fas fa-chevron-down"></i></a>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="servicios" id="servicios">
+        <div class="servicios-title">
+            <h2>Nuestros Servicios</h2>
+        </div>
+
+        <div class="servicios-wrapper">
+            <main class="grid">
+            <article>
+                <img src="images/servicios-box/albañileria.jpg
+                " alt="">
+                <div class="text">
+                    <h3>Albañileria</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+
+            <article>
+                <img src="images/servicios-box/carpinteria.jpg" alt="">
+                <div class="text">
+                    <h3>carpinteria</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+            <article>
+                <img src="images/servicios-box/ceramica.jpg" alt="">
+                <div class="text">
+                    <h3>ceramica</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+            <article>
+                <img src="images/servicios-box/electricista.jpg" alt="">
+                <div class="text">
+                    <h3>electricista</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+            <article>
+                <img src="images/servicios-box/pintura-hogar.jpg" alt="">
+                <div class="text">
+                    <h3>pintureria</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+            <article>
+                <img src="images/servicios-box/plomeria.jpg" alt="">
+                <div class="text">
+                    <h3>plomeria</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+            <article>
+                <img src="images/servicios-box/reforma.jpg" alt="">
+                <div class="text">
+                    <h3>reformas</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+            <article>
+                <img src="images/servicios-box/soldadura.jpg" alt="">
+                <div class="text">
+                    <h3>soldadura</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolores.</p>
+                    <div class="margen-interno"></div>
+                    <a href="#">Info</a>
+                </div>
+            </article>
+            </main>
+        </div>
+    </div>
+
+    <div class="nosotros" id="nosotros">
+        <div class="nosotros-content">
+            <div class="left-side">
+                <div class="left-side-content">
+                    <h2>Nosotros</h2>
+                    <div class="margen20" style="height: 20px;"></div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia animi repellendus minus natus maxime iusto hic dolores tenetur voluptatem iure? Distinctio placeat et voluptate qui sint esse ad consequuntur quia sunt, minima illo delectus tempora unde provident nulla? Corrupti, esse!</p>
+                    <div class="margen10" style="height: 10px;"></div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quod sit tempore, saepe voluptatibus autem temporibus nemo minus iure ullam mollitia tenetur eos placeat expedita nostrum! Excepturi molestiae cupiditate qui quos voluptatem, pariatur porro mollitia sequi ducimus repellendus, in unde modi commodi nihil facere cum.</p>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="images/nosotros.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="bx-portfolio" id="trabajos">
+        <div class="portfolio-title">
+            <h3>Ultimos Trabajos</h3>
+        </div>
+
+        <div class="resumen-portfolio">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit praesentium nostrum nobis delectus esse assumenda. Reiciendis praesentium veniam tenetur mollitia maiores quam. Excepturi optio unde minus pariatur?</p>
+        </div>
+
+        <div class="portfolio">
+            <div class="container">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="images/proyectos/proyecto1.jpg" alt="" >
+                    </div>
+                    
+                    <div class="contentBx">
+                        <div class="content">
+                            <h3>Post ONe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="margen-interno"></div>
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="images/proyectos/proyecto2.jpg" alt="" >
+                    </div>
+                    
+                    <div class="contentBx">
+                        <div class="content">
+                            <h3>Post ONe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="margen-interno"></div>
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="images/proyectos/proyecto3.jpg" alt="" >
+                    </div>
+                    
+                    <div class="contentBx">
+                        <div class="content">
+                            <h3>Post ONe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="margen-interno"></div>
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="images/proyectos/proyecto4.jpg" alt="" >
+                    </div>
+                    
+                    <div class="contentBx">
+                        <div class="content">
+                            <h3>Post ONe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="margen-interno"></div>
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <div class="contact" id="contacto">
+        <div class="contact-content">
+                <div class="title-contact">
+                    <h2>Contactanos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio iusto recusandae iure, nostrum commodi.</p>
+                </div>
+                
+                <div class="wrapper-contact">
+                    <div class="left-side">
+                        <div class="telefono">
+                            Telefono: 1162111611
+                        </div>
+                        <div class="email">
+                            Email: nestorjuliohinojosa@gmail.com
+                        </div>
+                        <div class="icons">
+                            <a href="https://www.instagram.com/juanma.hinojosa/?hl=es" target="blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/juan.hinojosa.359" target="blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/juan-hinojosa-b07b05209/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="blank"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="content">
+                            <h4>Recibi un Presupusto Gratiuto</h4>
+                            <h4>1162111611</h4>
+                            <h4>Dejanos tu Curriculum</h4>
+                            <div class="margen-interno"></div>
+                            <a href="#" >Curriculum</a>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <p>Juan Hinojosa | Todos los Derechos Reservados &copy; </p>
+        </div>
+    </div>
 </body>
+
+<script>
+    const navHamburger = document.querySelector("#navHamburger")
+    navHamburger.addEventListener("click", (e) => {
+        navHamburger.parentElement.classList.toggle("active");
+    })
+</script>
+
 </html>
